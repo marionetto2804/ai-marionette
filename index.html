@@ -87,11 +87,15 @@ details.evinfo th:first-child,details.evinfo td:first-child{text-align:left}
 .cands ul{margin:6px 0 0;padding-left:1.2em}
 .cands .note{font-size:12px;color:var(--ink2)}
 .empty{padding:24px;text-align:center;color:var(--ink2);background:var(--surface);border:1px dashed var(--line);border-radius:8px}
+.switch{display:flex;gap:8px;font-size:13px}
+.switch a,.switch b{padding:5px 12px;border-radius:4px;border:1px solid var(--line);text-decoration:none;color:var(--ink);background:var(--surface)}
+.switch b{background:var(--ink);color:var(--ground);border-color:var(--ink)}
 footer{font-size:12px;color:var(--ink2);border-top:1px solid var(--line);padding-top:12px}
 @media (max-width:560px){.hide-sm{display:none}.row{grid-template-columns:1.4em 1.9em minmax(0,1fr) 4.6em 3.1em 3.2em;gap:0 5px;padding:6px 6px}
 .rh .no{font-size:16px}.bar i{display:none}.nm{font-size:13.5px}.rows{font-size:12.5px}}
 </style></head><body><div class="wrap">
 <header><div class="brand">AIマリオネット<small>中央競馬 全レースの印と勝率</small></div><div class="meta">2026-11-01 の予想 ・ 2026-11-01 12:03 更新 ・ 学習データ〜2026-10-25</div></header>
+<nav class="switch" aria-label="中央・地方の切り替え"><b>中央</b><a href="nar/">地方</a></nav>
 <div class="legend">各レースは<b>勝率の高い順</b>に並べています（AIゆまと同じ形: 印 馬番【勝率】馬名(騎手)）。<b>印</b>は<b>能力勝率</b>の高い順（◎○▲△☆、6位以下は－）。能力勝率はオッズを使わず、過去走・馬場差補正タイム・血統・騎手・調教師から出した勝率です。
 <b>総合勝率</b>は能力とオッズを合わせた勝率で、数字の正確さはこちらが上。
 <b>想定オッズ</b>は実際のオッズではなく、前走の人気・騎手・過去の成績などから「このくらいの人気になりそう」と見積もった値です（単勝の払戻率80%で換算）。総合勝率もこの想定オッズで合成していて、実際のオッズは使っていません。
