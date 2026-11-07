@@ -41,6 +41,8 @@ details.day>summary{font:700 18px var(--display);cursor:pointer;padding:6px 0}
 .rh .no{font:700 18px var(--display)}
 .rh .info{font-size:13px;color:var(--ink2)}
 .tag{font-size:11.5px;font-weight:700;padding:1px 7px;border-radius:3px;background:var(--accent-soft);color:var(--accent)}
+.fin{display:inline-block;margin-left:6px;font-size:11.5px;font-weight:700;padding:0 5px;border-radius:3px;background:var(--sunk);color:var(--ink2);white-space:nowrap}
+.fin.f1{background:var(--accent);color:var(--surface)}.fin.f2,.fin.f3{background:var(--accent-soft);color:var(--accent)}
 .tag.mix{background:var(--up-soft);color:var(--up)}
 .tag.good{background:var(--accent);color:var(--surface)}
 .tag.bad{background:var(--sunk);color:var(--ink2);border:1px dashed var(--line)}
@@ -100,11 +102,9 @@ body:has(#s-no:checked) .row{order:var(--no)}
 .obtn:disabled{opacity:.6;cursor:wait}
 .oat{font-size:12px;color:var(--ink2)}
 .od.chg{background:var(--up-soft)}
-.fin{display:inline-block;margin-left:6px;font-size:11.5px;font-weight:700;padding:0 5px;border-radius:3px;background:var(--sunk);color:var(--ink2);white-space:nowrap}
-.fin.f1{background:var(--accent);color:var(--surface)}.fin.f2,.fin.f3{background:var(--accent-soft);color:var(--accent)}
 @media (max-width:560px){.row.nar{grid-template-columns:1.4em 1.9em minmax(0,1fr) 5em 3.4em}}
 </style></head><body data-date="2026-11-07"><div class="wrap">
-<header><div class="brand">AIマリオネット 地方<small>地方競馬 全レースの印と勝率（ばんえい除く）</small></div><div class="meta">2026-11-07 の予想 ・ 2026-11-07 08:47 更新 ・ オッズ 12:03時点 ・ 学習データ〜2026-11-02</div></header>
+<header><div class="brand">AIマリオネット 地方<small>地方競馬 全レースの印と勝率（ばんえい除く）</small></div><div class="meta">2026-11-07 の予想 ・ 2026-11-07 08:47 更新 ・ オッズ 12:14時点 ・ 学習データ〜2026-11-02</div></header>
 <nav class="switch" aria-label="中央・地方の切り替え"><a href="../">中央</a><b>地方</b></nav>
 <div class="legend">各レースは<b>勝率の高い順</b>に並べています（AIゆまと同じ形: 印 馬番【勝率】馬名(騎手)）。<b>印</b>は<b>能力勝率</b>の高い順（◎○▲△☆、6位以下は－）。
 能力勝率はオッズを使わず、過去走・馬場差補正タイム・騎手・調教師・枠から出した勝率です。
@@ -113,7 +113,7 @@ body:has(#s-no:checked) .row{order:var(--no)}
 <div class="sorter" role="radiogroup" aria-label="並べ替え"><b>並べ替え</b>
 <input class="sr" type="radio" name="sort" id="s-ab" checked><label for="s-ab">勝率(能力)順</label>
 <input class="sr" type="radio" name="sort" id="s-no"><label for="s-no">馬番順</label>
-<button type="button" class="obtn" id="obtn">オッズ更新</button><span class="oat" id="oat" aria-live="polite">オッズ 12:03時点</span></div>
+<button type="button" class="obtn" id="obtn">オッズ更新</button><span class="oat" id="oat" aria-live="polite">オッズ 12:14時点</span></div>
 <nav class="raceidx" id="idx-2026-11-07" aria-label="レース一覧"><div class="idxrow"><span class="iv">高知</span><div class="chips"><a class="rc" href="#202611073101"><b>1R</b><span>14:55</span></a><a class="rc" href="#202611073102"><b>2R</b><span>15:30</span></a><a class="rc" href="#202611073103"><b>3R</b><span>16:05</span></a><a class="rc" href="#202611073104"><b>4R</b><span>16:40</span></a><a class="rc" href="#202611073105"><b>5R</b><span>17:10</span></a><a class="rc" href="#202611073106"><b>6R</b><span>17:45</span></a><a class="rc" href="#202611073107"><b>7R</b><span>18:15</span></a><a class="rc" href="#202611073108"><b>8R</b><span>18:45</span></a><a class="rc" href="#202611073109"><b>9R</b><span>19:15</span></a><a class="rc" href="#202611073110"><b>10R</b><span>19:45</span></a><a class="rc" href="#202611073111"><b>11R</b><span>20:20</span></a><a class="rc" href="#202611073112"><b>12R</b><span>20:50</span></a></div></div><div class="idxrow"><span class="iv">佐賀</span><div class="chips"><a class="rc" href="#202611073201"><b>1R</b><span>15:25</span></a><a class="rc" href="#202611073202"><b>2R</b><span>15:55</span></a><a class="rc" href="#202611073203"><b>3R</b><span>16:30</span></a><a class="rc" href="#202611073204"><b>4R</b><span>17:00</span></a><a class="rc" href="#202611073205"><b>5R</b><span>17:35</span></a><a class="rc" href="#202611073206"><b>6R</b><span>18:05</span></a><a class="rc" href="#202611073207"><b>7R</b><span>18:35</span></a><a class="rc" href="#202611073208"><b>8R</b><span>19:05</span></a><a class="rc" href="#202611073209"><b>9R</b><span>19:35</span></a><a class="rc" href="#202611073210"><b>10R</b><span>20:10</span></a><a class="rc" href="#202611073211"><b>11R</b><span>20:40</span></a></div></div><p class="note">レースを押すとその表へ移動します。オレンジ枠＝混戦（能力1位の勝率20%未満）。ばんえい（帯広）は対象外です。</p></nav><h2 id="2026-11-07-高知">高知 <span class="tag">過去の◎単勝82%</span></h2>
 <article class="race" id="202611073101"><div class="rh"><span class="no">高知1R</span>
 <span class="info">14:55発走 ・ ダ1300m ・ 11頭</span><a class="back" href="#idx-2026-11-07">一覧へ ▲</a></div><div class="rows"><div class="row nar head"><span></span><span>番</span><span>馬名(騎手)</span><span class="num">勝率(能力)</span><span class="num">オッズ</span></div><div class="row nar" style="--ab:11;--no:1">
@@ -121,22 +121,22 @@ body:has(#s-no:checked) .row{order:var(--no)}
 <span><span class="waku" style="background:#FFFFFF;color:#15201A">1</span></span>
 <span class="who"><span class="nm">ソレユケカツコ</span><span class="sub">(新庄海)</span></span>
 <span class="num"><span class="bar"><i style="width:2px"></i>【0.2%】</span></span>
-<span class="num od" data-k="202611073101-1">44.0<span class="sub">11人気</span></span></div><div class="row nar" style="--ab:10;--no:2">
+<span class="num od" data-k="202611073101-1">47.0<span class="sub">11人気</span></span></div><div class="row nar" style="--ab:10;--no:2">
 <span class="mark">－</span>
 <span><span class="waku" style="background:#1C1C1C;color:#FFFFFF">2</span></span>
 <span class="who"><span class="nm">キヨスリョウマ</span><span class="sub">(木村直)</span></span>
 <span class="num"><span class="bar"><i style="width:2px"></i>【0.3%】</span></span>
-<span class="num od" data-k="202611073101-2">22.0<span class="sub">7人気</span></span></div><div class="row nar" style="--ab:4;--no:3">
+<span class="num od" data-k="202611073101-2">23.5<span class="sub">8人気</span></span></div><div class="row nar" style="--ab:4;--no:3">
 <span class="mark">△</span>
 <span><span class="waku" style="background:#D7342A;color:#FFFFFF">3</span></span>
 <span class="who"><span class="nm">フランジパーヌ</span><span class="sub">(加藤翔)</span></span>
 <span class="num"><span class="bar"><i style="width:21px"></i>【13.2%】</span></span>
-<span class="num od" data-k="202611073101-3">14.2<span class="sub">5人気</span></span></div><div class="row nar" style="--ab:6;--no:4">
+<span class="num od" data-k="202611073101-3">15.1<span class="sub">5人気</span></span></div><div class="row nar" style="--ab:6;--no:4">
 <span class="mark">－</span>
 <span><span class="waku" style="background:#2360B8;color:#FFFFFF">4</span></span>
 <span class="who"><span class="nm">ジョーヴェスタ</span><span class="sub">(岡遼太)</span></span>
 <span class="num"><span class="bar"><i style="width:7px"></i>【4.2%】</span></span>
-<span class="num od" data-k="202611073101-4">24.4<span class="sub">9人気</span></span></div><div class="row nar" style="--ab:2;--no:5">
+<span class="num od" data-k="202611073101-4">26.1<span class="sub">9人気</span></span></div><div class="row nar" style="--ab:2;--no:5">
 <span class="mark">○</span>
 <span><span class="waku" style="background:#EDC21B;color:#15201A">5</span></span>
 <span class="who"><span class="nm">サトノディヴァイン</span><span class="sub">(大澤誠)</span></span>
@@ -146,54 +146,54 @@ body:has(#s-no:checked) .row{order:var(--no)}
 <span><span class="waku" style="background:#2E8B3F;color:#FFFFFF">6</span></span>
 <span class="who"><span class="nm">ツイスティドシルク</span><span class="sub">(永森大)</span></span>
 <span class="num"><span class="bar"><i style="width:48px"></i>【29.7%】</span></span>
-<span class="num od" data-k="202611073101-6">4.8<span class="sub">2人気</span></span></div><div class="row nar" style="--ab:7;--no:7">
+<span class="num od" data-k="202611073101-6">4.6<span class="sub">2人気</span></span></div><div class="row nar" style="--ab:7;--no:7">
 <span class="mark">－</span>
 <span><span class="waku" style="background:#2E8B3F;color:#FFFFFF">7</span></span>
 <span class="who"><span class="nm">ユミッチラブ</span><span class="sub">(上田将)</span></span>
 <span class="num"><span class="bar"><i style="width:5px"></i>【3.0%】</span></span>
-<span class="num od" data-k="202611073101-7">16.3<span class="sub">6人気</span></span></div><div class="row nar" style="--ab:8;--no:8">
+<span class="num od" data-k="202611073101-7">17.4<span class="sub">6人気</span></span></div><div class="row nar" style="--ab:8;--no:8">
 <span class="mark">－</span>
 <span><span class="waku" style="background:#EE8A1E;color:#15201A">8</span></span>
 <span class="who"><span class="nm">フウリンカザン</span><span class="sub">(郷間勇)</span></span>
 <span class="num"><span class="bar"><i style="width:5px"></i>【2.9%】</span></span>
-<span class="num od" data-k="202611073101-8">8.1<span class="sub">3人気</span></span></div><div class="row nar" style="--ab:9;--no:9">
+<span class="num od" data-k="202611073101-8">7.8<span class="sub">3人気</span></span></div><div class="row nar" style="--ab:9;--no:9">
 <span class="mark">－</span>
 <span><span class="waku" style="background:#EE8A1E;color:#15201A">9</span></span>
 <span class="who"><span class="nm">リアルパラダイス</span><span class="sub">(多田誠)</span></span>
 <span class="num"><span class="bar"><i style="width:5px"></i>【2.9%】</span></span>
-<span class="num od" data-k="202611073101-9">22.0<span class="sub">7人気</span></span></div><div class="row nar" style="--ab:5;--no:10">
+<span class="num od" data-k="202611073101-9">17.4<span class="sub">6人気</span></span></div><div class="row nar" style="--ab:5;--no:10">
 <span class="mark">☆</span>
 <span><span class="waku" style="background:#EA8BB3;color:#15201A">10</span></span>
 <span class="who"><span class="nm">ベジョータ</span><span class="sub">(塚本直)</span></span>
 <span class="num"><span class="bar"><i style="width:10px"></i>【6.0%】</span></span>
-<span class="num od" data-k="202611073101-10">25.9<span class="sub">10人気</span></span></div><div class="row nar" style="--ab:3;--no:11">
+<span class="num od" data-k="202611073101-10">27.6<span class="sub">10人気</span></span></div><div class="row nar" style="--ab:3;--no:11">
 <span class="mark">▲</span>
 <span><span class="waku" style="background:#EA8BB3;color:#15201A">11</span></span>
 <span class="who"><span class="nm">フルフィルメント</span><span class="sub">(宮川実)</span></span>
 <span class="num"><span class="bar"><i style="width:26px"></i>【16.0%】</span></span>
-<span class="num od" data-k="202611073101-11">8.9<span class="sub">4人気</span></span></div></div></article>
+<span class="num od" data-k="202611073101-11">9.6<span class="sub">4人気</span></span></div></div></article>
 <article class="race" id="202611073102"><div class="rh"><span class="no">高知2R</span>
 <span class="info">15:30発走 ・ ダ1300m ・ 8頭</span><a class="back" href="#idx-2026-11-07">一覧へ ▲</a></div><div class="rows"><div class="row nar head"><span></span><span>番</span><span>馬名(騎手)</span><span class="num">勝率(能力)</span><span class="num">オッズ</span></div><div class="row nar" style="--ab:6;--no:1">
 <span class="mark">－</span>
 <span><span class="waku" style="background:#FFFFFF;color:#15201A">1</span></span>
 <span class="who"><span class="nm">レリッシュ</span><span class="sub">(畑中信)</span></span>
 <span class="num"><span class="bar"><i style="width:2px"></i>【2.3%】</span></span>
-<span class="num od" data-k="202611073102-1">5.8<span class="sub">4人気</span></span></div><div class="row nar" style="--ab:3;--no:2">
+<span class="num od" data-k="202611073102-1">6.0<span class="sub">4人気</span></span></div><div class="row nar" style="--ab:3;--no:2">
 <span class="mark">▲</span>
 <span><span class="waku" style="background:#1C1C1C;color:#FFFFFF">2</span></span>
 <span class="who"><span class="nm">タマモアマルフィ</span><span class="sub">(多田誠)</span></span>
 <span class="num"><span class="bar"><i style="width:18px"></i>【17.7%】</span></span>
-<span class="num od" data-k="202611073102-2">3.2<span class="sub">1人気</span></span></div><div class="row nar" style="--ab:5;--no:3">
+<span class="num od" data-k="202611073102-2">3.1<span class="sub">1人気</span></span></div><div class="row nar" style="--ab:5;--no:3">
 <span class="mark">☆</span>
 <span><span class="waku" style="background:#D7342A;color:#FFFFFF">3</span></span>
 <span class="who"><span class="nm">カジバノウマヂカラ</span><span class="sub">(山崎雅)</span></span>
 <span class="num"><span class="bar"><i style="width:3px"></i>【3.3%】</span></span>
-<span class="num od" data-k="202611073102-3">4.3<span class="sub">3人気</span></span></div><div class="row nar" style="--ab:7;--no:4">
+<span class="num od" data-k="202611073102-3">4.4<span class="sub">3人気</span></span></div><div class="row nar" style="--ab:7;--no:4">
 <span class="mark">－</span>
 <span><span class="waku" style="background:#2360B8;color:#FFFFFF">4</span></span>
 <span class="who"><span class="nm">エアロノート</span><span class="sub">(郷間勇)</span></span>
 <span class="num"><span class="bar"><i style="width:2px"></i>【1.7%】</span></span>
-<span class="num od" data-k="202611073102-4">12.9<span class="sub">7人気</span></span></div><div class="row nar" style="--ab:8;--no:5">
+<span class="num od" data-k="202611073102-4">13.2<span class="sub">7人気</span></span></div><div class="row nar" style="--ab:8;--no:5">
 <span class="mark">－</span>
 <span><span class="waku" style="background:#EDC21B;color:#15201A">5</span></span>
 <span class="who"><span class="nm">ワイドアルバ</span><span class="sub">(大澤誠)</span></span>
@@ -203,17 +203,17 @@ body:has(#s-no:checked) .row{order:var(--no)}
 <span><span class="waku" style="background:#2E8B3F;color:#FFFFFF">6</span></span>
 <span class="who"><span class="nm">バスターコール</span><span class="sub">(城野慈)</span></span>
 <span class="num"><span class="bar"><i style="width:48px"></i>【47.3%】</span></span>
-<span class="num od" data-k="202611073102-6">9.2<span class="sub">5人気</span></span></div><div class="row nar" style="--ab:4;--no:7">
+<span class="num od" data-k="202611073102-6">9.4<span class="sub">5人気</span></span></div><div class="row nar" style="--ab:4;--no:7">
 <span class="mark">△</span>
 <span><span class="waku" style="background:#EE8A1E;color:#15201A">7</span></span>
 <span class="who"><span class="nm">ブレイシオン</span><span class="sub">(近藤翔)</span></span>
 <span class="num"><span class="bar"><i style="width:8px"></i>【8.0%】</span></span>
-<span class="num od" data-k="202611073102-7">3.8<span class="sub">2人気</span></span></div><div class="row nar" style="--ab:2;--no:8">
+<span class="num od" data-k="202611073102-7">3.9<span class="sub">2人気</span></span></div><div class="row nar" style="--ab:2;--no:8">
 <span class="mark">○</span>
 <span><span class="waku" style="background:#EA8BB3;color:#15201A">8</span></span>
 <span class="who"><span class="nm">プルメリアクヒオ</span><span class="sub">(岡遼太)</span></span>
 <span class="num"><span class="bar"><i style="width:20px"></i>【19.3%】</span></span>
-<span class="num od" data-k="202611073102-8">10.8<span class="sub">6人気</span></span></div></div></article>
+<span class="num od" data-k="202611073102-8">9.4<span class="sub">5人気</span></span></div></div></article>
 <article class="race" id="202611073103"><div class="rh"><span class="no">高知3R</span>
 <span class="info">16:05発走 ・ ダ1300m ・ 10頭</span><a class="back" href="#idx-2026-11-07">一覧へ ▲</a></div><div class="rows"><div class="row nar head"><span></span><span>番</span><span>馬名(騎手)</span><span class="num">勝率(能力)</span><span class="num">オッズ</span></div><div class="row nar" style="--ab:3;--no:1">
 <span class="mark">▲</span>
@@ -277,7 +277,7 @@ body:has(#s-no:checked) .row{order:var(--no)}
 <span><span class="waku" style="background:#1C1C1C;color:#FFFFFF">2</span></span>
 <span class="who"><span class="nm">エムティパブロ</span><span class="sub">(石本純)</span></span>
 <span class="num"><span class="bar"><i style="width:2px"></i>【0.0%】</span></span>
-<span class="num od" data-k="202611073104-2">261.8<span class="sub">8人気</span></span></div><div class="row nar top" style="--ab:1;--no:3">
+<span class="num od" data-k="202611073104-2">263.0<span class="sub">8人気</span></span></div><div class="row nar top" style="--ab:1;--no:3">
 <span class="mark">◎</span>
 <span><span class="waku" style="background:#D7342A;color:#FFFFFF">3</span></span>
 <span class="who"><span class="nm">アスクドゥラメンテ</span><span class="sub">(永森大)</span></span>
@@ -287,42 +287,42 @@ body:has(#s-no:checked) .row{order:var(--no)}
 <span><span class="waku" style="background:#2360B8;color:#FFFFFF">4</span></span>
 <span class="who"><span class="nm">グリエールキック</span><span class="sub">(多田誠)</span></span>
 <span class="num"><span class="bar"><i style="width:3px"></i>【4.9%】</span></span>
-<span class="num od" data-k="202611073104-4">130.9<span class="sub">4人気</span></span></div><div class="row nar" style="--ab:10;--no:5">
+<span class="num od" data-k="202611073104-4">131.5<span class="sub">4人気</span></span></div><div class="row nar" style="--ab:10;--no:5">
 <span class="mark">－</span>
 <span><span class="waku" style="background:#EDC21B;color:#15201A">5</span></span>
 <span class="who"><span class="nm">サイモンソーラン</span><span class="sub">(上田将)</span></span>
 <span class="num"><span class="bar"><i style="width:2px"></i>【0.2%】</span></span>
-<span class="num od" data-k="202611073104-5">174.5<span class="sub">6人気</span></span></div><div class="row nar" style="--ab:7;--no:6">
+<span class="num od" data-k="202611073104-5">175.3<span class="sub">6人気</span></span></div><div class="row nar" style="--ab:7;--no:6">
 <span class="mark">－</span>
 <span><span class="waku" style="background:#2E8B3F;color:#FFFFFF">6</span></span>
 <span class="who"><span class="nm">ジョウショーブリエ</span><span class="sub">(山崎雅)</span></span>
 <span class="num"><span class="bar"><i style="width:2px"></i>【1.5%】</span></span>
-<span class="num od" data-k="202611073104-6">69.8<span class="sub">2人気</span></span></div><div class="row nar" style="--ab:3;--no:7">
+<span class="num od" data-k="202611073104-6">70.1<span class="sub">2人気</span></span></div><div class="row nar" style="--ab:3;--no:7">
 <span class="mark">▲</span>
 <span><span class="waku" style="background:#2E8B3F;color:#FFFFFF">7</span></span>
 <span class="who"><span class="nm">デビッドテソーロ</span><span class="sub">(郷間勇)</span></span>
 <span class="num"><span class="bar"><i style="width:5px"></i>【7.0%】</span></span>
-<span class="num od" data-k="202611073104-7">104.7<span class="sub">3人気</span></span></div><div class="row nar" style="--ab:2;--no:8">
+<span class="num od" data-k="202611073104-7">105.2<span class="sub">3人気</span></span></div><div class="row nar" style="--ab:2;--no:8">
 <span class="mark">○</span>
 <span><span class="waku" style="background:#EE8A1E;color:#15201A">8</span></span>
 <span class="who"><span class="nm">エンファサイズ</span><span class="sub">(西森将)</span></span>
 <span class="num"><span class="bar"><i style="width:6px"></i>【8.1%】</span></span>
-<span class="num od" data-k="202611073104-8">523.6<span class="sub">10人気</span></span></div><div class="row nar" style="--ab:4;--no:9">
+<span class="num od" data-k="202611073104-8">526.0<span class="sub">10人気</span></span></div><div class="row nar" style="--ab:4;--no:9">
 <span class="mark">△</span>
 <span><span class="waku" style="background:#EE8A1E;color:#15201A">9</span></span>
 <span class="who"><span class="nm">ホークレア</span><span class="sub">(城野慈)</span></span>
 <span class="num"><span class="bar"><i style="width:4px"></i>【6.1%】</span></span>
-<span class="num od" data-k="202611073104-9">174.5<span class="sub">6人気</span></span></div><div class="row nar" style="--ab:8;--no:10">
+<span class="num od" data-k="202611073104-9">175.3<span class="sub">6人気</span></span></div><div class="row nar" style="--ab:8;--no:10">
 <span class="mark">－</span>
 <span><span class="waku" style="background:#EA8BB3;color:#15201A">10</span></span>
 <span class="who"><span class="nm">チョットヤバイヨネ</span><span class="sub">(新庄海)</span></span>
 <span class="num"><span class="bar"><i style="width:2px"></i>【0.6%】</span></span>
-<span class="num od" data-k="202611073104-10">149.6<span class="sub">5人気</span></span></div><div class="row nar" style="--ab:6;--no:11">
+<span class="num od" data-k="202611073104-10">131.5<span class="sub">4人気</span></span></div><div class="row nar" style="--ab:6;--no:11">
 <span class="mark">－</span>
 <span><span class="waku" style="background:#EA8BB3;color:#15201A">11</span></span>
 <span class="who"><span class="nm">ソックス</span><span class="sub">(宮川実)</span></span>
 <span class="num"><span class="bar"><i style="width:2px"></i>【2.1%】</span></span>
-<span class="num od" data-k="202611073104-11">349.0<span class="sub">9人気</span></span></div></div></article>
+<span class="num od" data-k="202611073104-11">350.6<span class="sub">9人気</span></span></div></div></article>
 <article class="race" id="202611073105"><div class="rh"><span class="no">高知5R</span>
 <span class="info">17:10発走 ・ ダ1300m ・ 10頭</span><a class="back" href="#idx-2026-11-07">一覧へ ▲</a></div><div class="rows"><div class="row nar head"><span></span><span>番</span><span>馬名(騎手)</span><span class="num">勝率(能力)</span><span class="num">オッズ</span></div><div class="row nar" style="--ab:3;--no:1">
 <span class="mark">▲</span>
@@ -334,32 +334,32 @@ body:has(#s-no:checked) .row{order:var(--no)}
 <span><span class="waku" style="background:#1C1C1C;color:#FFFFFF">2</span></span>
 <span class="who"><span class="nm">ゲクウ</span><span class="sub">(加藤翔)</span></span>
 <span class="num"><span class="bar"><i style="width:39px"></i>【24.4%】</span></span>
-<span class="num od" data-k="202611073105-2">17.6<span class="sub">4人気</span></span></div><div class="row nar" style="--ab:8;--no:3">
+<span class="num od" data-k="202611073105-2">17.8<span class="sub">4人気</span></span></div><div class="row nar" style="--ab:8;--no:3">
 <span class="mark">－</span>
 <span><span class="waku" style="background:#D7342A;color:#FFFFFF">3</span></span>
 <span class="who"><span class="nm">ペイシャプレイ</span><span class="sub">(西森将)</span></span>
 <span class="num"><span class="bar"><i style="width:3px"></i>【2.1%】</span></span>
-<span class="num od" data-k="202611073105-3">70.4<span class="sub">8人気</span></span></div><div class="row nar" style="--ab:6;--no:4">
+<span class="num od" data-k="202611073105-3">71.2<span class="sub">8人気</span></span></div><div class="row nar" style="--ab:6;--no:4">
 <span class="mark">－</span>
 <span><span class="waku" style="background:#2360B8;color:#FFFFFF">4</span></span>
 <span class="who"><span class="nm">リゼレインボー</span><span class="sub">(城野慈)</span></span>
 <span class="num"><span class="bar"><i style="width:5px"></i>【3.2%】</span></span>
-<span class="num od" data-k="202611073105-4">70.4<span class="sub">8人気</span></span></div><div class="row nar" style="--ab:7;--no:5">
+<span class="num od" data-k="202611073105-4">71.2<span class="sub">8人気</span></span></div><div class="row nar" style="--ab:7;--no:5">
 <span class="mark">－</span>
 <span><span class="waku" style="background:#EDC21B;color:#15201A">5</span></span>
 <span class="who"><span class="nm">ローメット</span><span class="sub">(濱尚美)</span></span>
 <span class="num"><span class="bar"><i style="width:4px"></i>【2.7%】</span></span>
-<span class="num od" data-k="202611073105-5">6.4<span class="sub">2人気</span></span></div><div class="row nar" style="--ab:10;--no:6">
+<span class="num od" data-k="202611073105-5">5.9<span class="sub">2人気</span></span></div><div class="row nar" style="--ab:10;--no:6">
 <span class="mark">－</span>
 <span><span class="waku" style="background:#2E8B3F;color:#FFFFFF">6</span></span>
 <span class="who"><span class="nm">トーケンタカハール</span><span class="sub">(石本純)</span></span>
 <span class="num"><span class="bar"><i style="width:2px"></i>【0.1%】</span></span>
-<span class="num od" data-k="202611073105-6">23.4<span class="sub">6人気</span></span></div><div class="row nar" style="--ab:4;--no:7">
+<span class="num od" data-k="202611073105-6">23.7<span class="sub">6人気</span></span></div><div class="row nar" style="--ab:4;--no:7">
 <span class="mark">△</span>
 <span><span class="waku" style="background:#EE8A1E;color:#15201A">7</span></span>
 <span class="who"><span class="nm">クルマトラサン</span><span class="sub">(宮川実)</span></span>
 <span class="num"><span class="bar"><i style="width:22px"></i>【13.3%】</span></span>
-<span class="num od" data-k="202611073105-7">17.6<span class="sub">4人気</span></span></div><div class="row nar" style="--ab:9;--no:8">
+<span class="num od" data-k="202611073105-7">17.8<span class="sub">4人気</span></span></div><div class="row nar" style="--ab:9;--no:8">
 <span class="mark">－</span>
 <span><span class="waku" style="background:#EE8A1E;color:#15201A">8</span></span>
 <span class="who"><span class="nm">セントキルダ</span><span class="sub">(塚本直)</span></span>
@@ -369,69 +369,69 @@ body:has(#s-no:checked) .row{order:var(--no)}
 <span><span class="waku" style="background:#EA8BB3;color:#15201A">9</span></span>
 <span class="who"><span class="nm">シシフンジン</span><span class="sub">(上田将)</span></span>
 <span class="num"><span class="bar"><i style="width:14px"></i>【9.0%】</span></span>
-<span class="num od" data-k="202611073105-9">28.1<span class="sub">7人気</span></span></div><div class="row nar top" style="--ab:1;--no:10">
+<span class="num od" data-k="202611073105-9">28.4<span class="sub">7人気</span></span></div><div class="row nar top" style="--ab:1;--no:10">
 <span class="mark">◎</span>
 <span><span class="waku" style="background:#EA8BB3;color:#15201A">10</span></span>
 <span class="who"><span class="nm">タイキエクセロン</span><span class="sub">(永森大)</span></span>
 <span class="num"><span class="bar"><i style="width:48px"></i>【29.7%】</span></span>
-<span class="num od" data-k="202611073105-10">10.8<span class="sub">3人気</span></span></div></div></article>
+<span class="num od" data-k="202611073105-10">10.9<span class="sub">3人気</span></span></div></div></article>
 <article class="race" id="202611073106"><div class="rh"><span class="no">高知6R</span>
 <span class="info">17:45発走 ・ ダ1300m ・ 11頭</span><a class="back" href="#idx-2026-11-07">一覧へ ▲</a></div><div class="rows"><div class="row nar head"><span></span><span>番</span><span>馬名(騎手)</span><span class="num">勝率(能力)</span><span class="num">オッズ</span></div><div class="row nar" style="--ab:4;--no:1">
 <span class="mark">△</span>
 <span><span class="waku" style="background:#FFFFFF;color:#15201A">1</span></span>
 <span class="who"><span class="nm">アイムスティルミー</span><span class="sub">(郷間勇)</span></span>
 <span class="num"><span class="bar"><i style="width:4px"></i>【5.7%】</span></span>
-<span class="num od" data-k="202611073106-1">21.3<span class="sub">6人気</span></span></div><div class="row nar" style="--ab:5;--no:2">
+<span class="num od" data-k="202611073106-1">21.6<span class="sub">6人気</span></span></div><div class="row nar" style="--ab:5;--no:2">
 <span class="mark">☆</span>
 <span><span class="waku" style="background:#1C1C1C;color:#FFFFFF">2</span></span>
 <span class="who"><span class="nm">ルナヴェローチェ</span><span class="sub">(新庄海)</span></span>
 <span class="num"><span class="bar"><i style="width:2px"></i>【2.2%】</span></span>
-<span class="num od" data-k="202611073106-2">32.0<span class="sub">9人気</span></span></div><div class="row nar" style="--ab:7;--no:3">
+<span class="num od" data-k="202611073106-2">32.4<span class="sub">9人気</span></span></div><div class="row nar" style="--ab:7;--no:3">
 <span class="mark">－</span>
 <span><span class="waku" style="background:#D7342A;color:#FFFFFF">3</span></span>
 <span class="who"><span class="nm">パルメリータ</span><span class="sub">(畑中信)</span></span>
 <span class="num"><span class="bar"><i style="width:2px"></i>【0.9%】</span></span>
-<span class="num od" data-k="202611073106-3">64.0<span class="sub">11人気</span></span></div><div class="row nar" style="--ab:2;--no:4">
+<span class="num od" data-k="202611073106-3">64.8<span class="sub">11人気</span></span></div><div class="row nar" style="--ab:2;--no:4">
 <span class="mark">○</span>
 <span><span class="waku" style="background:#2360B8;color:#FFFFFF">4</span></span>
 <span class="who"><span class="nm">チュウワロンドン</span><span class="sub">(宮川実)</span></span>
 <span class="num"><span class="bar"><i style="width:6px"></i>【8.6%】</span></span>
-<span class="num od" data-k="202611073106-4">10.6<span class="sub">4人気</span></span></div><div class="row nar" style="--ab:10;--no:5">
+<span class="num od" data-k="202611073106-4">10.8<span class="sub">4人気</span></span></div><div class="row nar" style="--ab:10;--no:5">
 <span class="mark">－</span>
 <span><span class="waku" style="background:#EDC21B;color:#15201A">5</span></span>
 <span class="who"><span class="nm">フランフィズ</span><span class="sub">(石本純)</span></span>
 <span class="num"><span class="bar"><i style="width:2px"></i>【0.1%】</span></span>
-<span class="num od" data-k="202611073106-5">21.3<span class="sub">6人気</span></span></div><div class="row nar" style="--ab:6;--no:6">
+<span class="num od" data-k="202611073106-5">21.6<span class="sub">6人気</span></span></div><div class="row nar" style="--ab:6;--no:6">
 <span class="mark">－</span>
 <span><span class="waku" style="background:#2E8B3F;color:#FFFFFF">6</span></span>
 <span class="who"><span class="nm">ヨシュア</span><span class="sub">(上田将)</span></span>
 <span class="num"><span class="bar"><i style="width:2px"></i>【1.0%】</span></span>
-<span class="num od" data-k="202611073106-6">7.1<span class="sub">3人気</span></span></div><div class="row nar" style="--ab:3;--no:7">
+<span class="num od" data-k="202611073106-6">7.2<span class="sub">3人気</span></span></div><div class="row nar" style="--ab:3;--no:7">
 <span class="mark">▲</span>
 <span><span class="waku" style="background:#2E8B3F;color:#FFFFFF">7</span></span>
 <span class="who"><span class="nm">モトサン</span><span class="sub">(近藤翔)</span></span>
 <span class="num"><span class="bar"><i style="width:5px"></i>【7.9%】</span></span>
-<span class="num od" data-k="202611073106-7">12.8<span class="sub">5人気</span></span></div><div class="row nar top" style="--ab:1;--no:8">
+<span class="num od" data-k="202611073106-7">12.9<span class="sub">5人気</span></span></div><div class="row nar top" style="--ab:1;--no:8">
 <span class="mark">◎</span>
 <span><span class="waku" style="background:#EE8A1E;color:#15201A">8</span></span>
 <span class="who"><span class="nm">ロードオルデン</span><span class="sub">(永森大)</span></span>
 <span class="num"><span class="bar"><i style="width:48px"></i>【72.2%】</span></span>
-<span class="num od" data-k="202611073106-8">2.0<span class="sub">1人気</span></span></div><div class="row nar" style="--ab:8;--no:9">
+<span class="num od" data-k="202611073106-8">1.9<span class="sub">1人気</span></span></div><div class="row nar" style="--ab:8;--no:9">
 <span class="mark">－</span>
 <span><span class="waku" style="background:#EE8A1E;color:#15201A">9</span></span>
 <span class="who"><span class="nm">クラウンクーロン</span><span class="sub">(濱尚美)</span></span>
 <span class="num"><span class="bar"><i style="width:2px"></i>【0.8%】</span></span>
-<span class="num od" data-k="202611073106-9">4.5<span class="sub">2人気</span></span></div><div class="row nar" style="--ab:11;--no:10">
+<span class="num od" data-k="202611073106-9">4.6<span class="sub">2人気</span></span></div><div class="row nar" style="--ab:11;--no:10">
 <span class="mark">－</span>
 <span><span class="waku" style="background:#EA8BB3;color:#15201A">10</span></span>
 <span class="who"><span class="nm">オブリマイラブ</span><span class="sub">(大澤誠)</span></span>
 <span class="num"><span class="bar"><i style="width:2px"></i>【0.1%】</span></span>
-<span class="num od" data-k="202611073106-10">21.3<span class="sub">6人気</span></span></div><div class="row nar" style="--ab:9;--no:11">
+<span class="num od" data-k="202611073106-10">21.6<span class="sub">6人気</span></span></div><div class="row nar" style="--ab:9;--no:11">
 <span class="mark">－</span>
 <span><span class="waku" style="background:#EA8BB3;color:#15201A">11</span></span>
 <span class="who"><span class="nm">エターナルライズ</span><span class="sub">(山崎雅)</span></span>
 <span class="num"><span class="bar"><i style="width:2px"></i>【0.5%】</span></span>
-<span class="num od" data-k="202611073106-11">32.0<span class="sub">9人気</span></span></div></div></article>
+<span class="num od" data-k="202611073106-11">32.4<span class="sub">9人気</span></span></div></div></article>
 <article class="race" id="202611073107"><div class="rh"><span class="no">高知7R</span>
 <span class="info">18:15発走 ・ ダ1600m ・ 9頭</span><a class="back" href="#idx-2026-11-07">一覧へ ▲</a></div><div class="rows"><div class="row nar head"><span></span><span>番</span><span>馬名(騎手)</span><span class="num">勝率(能力)</span><span class="num">オッズ</span></div><div class="row nar" style="--ab:4;--no:1">
 <span class="mark">△</span>
@@ -490,47 +490,47 @@ body:has(#s-no:checked) .row{order:var(--no)}
 <span><span class="waku" style="background:#1C1C1C;color:#FFFFFF">2</span></span>
 <span class="who"><span class="nm">ムサシフウジン</span><span class="sub">(濱尚美)</span></span>
 <span class="num"><span class="bar"><i style="width:2px"></i>【1.8%】</span></span>
-<span class="num od" data-k="202611073108-2">10.4<span class="sub">5人気</span></span></div><div class="row nar" style="--ab:11;--no:3">
+<span class="num od" data-k="202611073108-2">13.0<span class="sub">5人気</span></span></div><div class="row nar" style="--ab:11;--no:3">
 <span class="mark">－</span>
 <span><span class="waku" style="background:#D7342A;color:#FFFFFF">3</span></span>
 <span class="who"><span class="nm">ロイズピーク</span><span class="sub">(上田将)</span></span>
 <span class="num"><span class="bar"><i style="width:2px"></i>【1.1%】</span></span>
-<span class="num od" data-k="202611073108-3">41.6<span class="sub">8人気</span></span></div><div class="row nar" style="--ab:6;--no:4">
+<span class="num od" data-k="202611073108-3">26.0<span class="sub">8人気</span></span></div><div class="row nar" style="--ab:6;--no:4">
 <span class="mark">－</span>
 <span><span class="waku" style="background:#2360B8;color:#FFFFFF">4</span></span>
 <span class="who"><span class="nm">サーブルミラージュ</span><span class="sub">(郷間勇)</span></span>
 <span class="num"><span class="bar"><i style="width:5px"></i>【4.2%】</span></span>
-<span class="num od" data-k="202611073108-4">13.8<span class="sub">6人気</span></span></div><div class="row nar" style="--ab:7;--no:5">
+<span class="num od" data-k="202611073108-4">17.3<span class="sub">6人気</span></span></div><div class="row nar" style="--ab:7;--no:5">
 <span class="mark">－</span>
 <span><span class="waku" style="background:#EDC21B;color:#15201A">5</span></span>
 <span class="who"><span class="nm">ヒマワリクン</span><span class="sub">(新庄海)</span></span>
 <span class="num"><span class="bar"><i style="width:3px"></i>【2.7%】</span></span>
-<span class="num od" data-k="202611073108-5">41.6<span class="sub">8人気</span></span></div><div class="row nar" style="--ab:5;--no:6">
+<span class="num od" data-k="202611073108-5">52.0<span class="sub">9人気</span></span></div><div class="row nar" style="--ab:5;--no:6">
 <span class="mark">☆</span>
 <span><span class="waku" style="background:#2E8B3F;color:#FFFFFF">6</span></span>
 <span class="who"><span class="nm">セイウンガレオン</span><span class="sub">(岡遼太)</span></span>
 <span class="num"><span class="bar"><i style="width:8px"></i>【6.7%】</span></span>
-<span class="num od" data-k="202611073108-6">5.9<span class="sub">3人気</span></span></div><div class="row nar" style="--ab:10;--no:7">
+<span class="num od" data-k="202611073108-6">7.4<span class="sub">4人気</span></span></div><div class="row nar" style="--ab:10;--no:7">
 <span class="mark">－</span>
 <span><span class="waku" style="background:#2E8B3F;color:#FFFFFF">7</span></span>
 <span class="who"><span class="nm">ビックス</span><span class="sub">(畑中信)</span></span>
 <span class="num"><span class="bar"><i style="width:2px"></i>【1.2%】</span></span>
-<span class="num od" data-k="202611073108-7">13.8<span class="sub">6人気</span></span></div><div class="row nar" style="--ab:4;--no:8">
+<span class="num od" data-k="202611073108-7">17.3<span class="sub">6人気</span></span></div><div class="row nar" style="--ab:4;--no:8">
 <span class="mark">△</span>
 <span><span class="waku" style="background:#EE8A1E;color:#15201A">8</span></span>
 <span class="who"><span class="nm">ステラマテュティナ</span><span class="sub">(近藤翔)</span></span>
 <span class="num"><span class="bar"><i style="width:14px"></i>【11.0%】</span></span>
-<span class="num od" data-k="202611073108-8">3.2<span class="sub">1人気</span></span></div><div class="row nar" style="--ab:8;--no:9">
+<span class="num od" data-k="202611073108-8">3.0<span class="sub">1人気</span></span></div><div class="row nar" style="--ab:8;--no:9">
 <span class="mark">－</span>
 <span><span class="waku" style="background:#EE8A1E;color:#15201A">9</span></span>
 <span class="who"><span class="nm">クラックオブドーン</span><span class="sub">(木村直)</span></span>
 <span class="num"><span class="bar"><i style="width:3px"></i>【2.3%】</span></span>
-<span class="num od" data-k="202611073108-9">41.6<span class="sub">8人気</span></span></div><div class="row nar top" style="--ab:1;--no:10">
+<span class="num od" data-k="202611073108-9">52.0<span class="sub">9人気</span></span></div><div class="row nar top" style="--ab:1;--no:10">
 <span class="mark">◎</span>
 <span><span class="waku" style="background:#EA8BB3;color:#15201A">10</span></span>
 <span class="who"><span class="nm">ゴーマックス</span><span class="sub">(宮川実)</span></span>
 <span class="num"><span class="bar"><i style="width:48px"></i>【38.9%】</span></span>
-<span class="num od" data-k="202611073108-10">5.9<span class="sub">3人気</span></span></div><div class="row nar" style="--ab:2;--no:11">
+<span class="num od" data-k="202611073108-10">4.3<span class="sub">3人気</span></span></div><div class="row nar" style="--ab:2;--no:11">
 <span class="mark">○</span>
 <span><span class="waku" style="background:#EA8BB3;color:#15201A">11</span></span>
 <span class="who"><span class="nm">スペイドアン</span><span class="sub">(多田誠)</span></span>
@@ -542,116 +542,116 @@ body:has(#s-no:checked) .row{order:var(--no)}
 <span><span class="waku" style="background:#FFFFFF;color:#15201A">1</span></span>
 <span class="who"><span class="nm">メイショウジェンマ</span><span class="sub">(永森大)</span></span>
 <span class="num"><span class="bar"><i style="width:48px"></i>【59.8%】</span></span>
-<span class="num od" data-k="202611073109-1">2.4<span class="sub">1人気</span></span></div><div class="row nar" style="--ab:3;--no:2">
+<span class="num od" data-k="202611073109-1">2.3<span class="sub">1人気</span></span></div><div class="row nar" style="--ab:3;--no:2">
 <span class="mark">▲</span>
 <span><span class="waku" style="background:#1C1C1C;color:#FFFFFF">2</span></span>
 <span class="who"><span class="nm">クリノドラゴン</span><span class="sub">(岡遼太)</span></span>
 <span class="num"><span class="bar"><i style="width:10px"></i>【13.0%】</span></span>
-<span class="num od" data-k="202611073109-2">3.6<span class="sub">2人気</span></span></div><div class="row nar" style="--ab:8;--no:3">
+<span class="num od" data-k="202611073109-2">5.4<span class="sub">3人気</span></span></div><div class="row nar" style="--ab:8;--no:3">
 <span class="mark">－</span>
 <span><span class="waku" style="background:#D7342A;color:#FFFFFF">3</span></span>
 <span class="who"><span class="nm">ハルノサムソン</span><span class="sub">(濱尚美)</span></span>
 <span class="num"><span class="bar"><i style="width:2px"></i>【0.1%】</span></span>
-<span class="num od" data-k="202611073109-3">21.6<span class="sub">6人気</span></span></div><div class="row nar" style="--ab:2;--no:4">
+<span class="num od" data-k="202611073109-3">32.5<span class="sub">6人気</span></span></div><div class="row nar" style="--ab:2;--no:4">
 <span class="mark">○</span>
 <span><span class="waku" style="background:#2360B8;color:#FFFFFF">4</span></span>
 <span class="who"><span class="nm">カレンワッツアップ</span><span class="sub">(多田誠)</span></span>
 <span class="num"><span class="bar"><i style="width:14px"></i>【17.5%】</span></span>
-<span class="num od" data-k="202611073109-4">12.9<span class="sub">5人気</span></span></div><div class="row nar" style="--ab:4;--no:5">
+<span class="num od" data-k="202611073109-4">3.9<span class="sub">2人気</span></span></div><div class="row nar" style="--ab:4;--no:5">
 <span class="mark">△</span>
 <span><span class="waku" style="background:#EDC21B;color:#15201A">5</span></span>
 <span class="who"><span class="nm">オリーブブランチ</span><span class="sub">(近藤翔)</span></span>
 <span class="num"><span class="bar"><i style="width:5px"></i>【6.0%】</span></span>
-<span class="num od" data-k="202611073109-5">5.4<span class="sub">4人気</span></span></div><div class="row nar" style="--ab:7;--no:6">
+<span class="num od" data-k="202611073109-5">5.7<span class="sub">4人気</span></span></div><div class="row nar" style="--ab:7;--no:6">
 <span class="mark">－</span>
 <span><span class="waku" style="background:#2E8B3F;color:#FFFFFF">6</span></span>
 <span class="who"><span class="nm">メイショウオキビ</span><span class="sub">(畑中信)</span></span>
 <span class="num"><span class="bar"><i style="width:2px"></i>【0.3%】</span></span>
-<span class="num od" data-k="202611073109-6">32.4<span class="sub">7人気</span></span></div><div class="row nar" style="--ab:5;--no:7">
+<span class="num od" data-k="202611073109-6">48.8<span class="sub">7人気</span></span></div><div class="row nar" style="--ab:5;--no:7">
 <span class="mark">☆</span>
 <span><span class="waku" style="background:#EE8A1E;color:#15201A">7</span></span>
 <span class="who"><span class="nm">シンデレラスマイル</span><span class="sub">(上田将)</span></span>
 <span class="num"><span class="bar"><i style="width:2px"></i>【1.9%】</span></span>
-<span class="num od" data-k="202611073109-7">4.6<span class="sub">3人気</span></span></div><div class="row nar" style="--ab:6;--no:8">
+<span class="num od" data-k="202611073109-7">6.5<span class="sub">5人気</span></span></div><div class="row nar" style="--ab:6;--no:8">
 <span class="mark">－</span>
 <span><span class="waku" style="background:#EA8BB3;color:#15201A">8</span></span>
 <span class="who"><span class="nm">ゲンパチレオニダス</span><span class="sub">(城野慈)</span></span>
 <span class="num"><span class="bar"><i style="width:2px"></i>【1.3%】</span></span>
-<span class="num od" data-k="202611073109-8">64.8<span class="sub">8人気</span></span></div></div></article>
+<span class="num od" data-k="202611073109-8">97.6<span class="sub">8人気</span></span></div></div></article>
 <article class="race" id="202611073110"><div class="rh"><span class="no">高知10R</span>
 <span class="info">19:45発走 ・ ダ1600m ・ 10頭</span><a class="back" href="#idx-2026-11-07">一覧へ ▲</a></div><div class="rows"><div class="row nar head"><span></span><span>番</span><span>馬名(騎手)</span><span class="num">勝率(能力)</span><span class="num">オッズ</span></div><div class="row nar" style="--ab:5;--no:1">
 <span class="mark">☆</span>
 <span><span class="waku" style="background:#FFFFFF;color:#15201A">1</span></span>
 <span class="who"><span class="nm">ユキノマリア</span><span class="sub">(塚本直)</span></span>
 <span class="num"><span class="bar"><i style="width:4px"></i>【3.2%】</span></span>
-<span class="num od" data-k="202611073110-1">16.4<span class="sub">7人気</span></span></div><div class="row nar" style="--ab:9;--no:2">
+<span class="num od" data-k="202611073110-1">58.4<span class="sub">7人気</span></span></div><div class="row nar" style="--ab:9;--no:2">
 <span class="mark">－</span>
 <span><span class="waku" style="background:#1C1C1C;color:#FFFFFF">2</span></span>
 <span class="who"><span class="nm">ディベルティール</span><span class="sub">(郷間勇)</span></span>
 <span class="num"><span class="bar"><i style="width:2px"></i>【0.5%】</span></span>
-<span class="num od" data-k="202611073110-2">10.9<span class="sub">4人気</span></span></div><div class="row nar" style="--ab:3;--no:3">
+<span class="num od" data-k="202611073110-2">38.9<span class="sub">4人気</span></span></div><div class="row nar" style="--ab:3;--no:3">
 <span class="mark">▲</span>
 <span><span class="waku" style="background:#D7342A;color:#FFFFFF">3</span></span>
 <span class="who"><span class="nm">テンカハル</span><span class="sub">(多田誠)</span></span>
 <span class="num"><span class="bar"><i style="width:17px"></i>【15.2%】</span></span>
-<span class="num od" data-k="202611073110-3">5.4<span class="sub">3人気</span></span></div><div class="row nar" style="--ab:2;--no:4">
+<span class="num od" data-k="202611073110-3">1.0<span class="sub">1人気</span></span></div><div class="row nar" style="--ab:2;--no:4">
 <span class="mark">○</span>
 <span><span class="waku" style="background:#2360B8;color:#FFFFFF">4</span></span>
 <span class="who"><span class="nm">カールスバート</span><span class="sub">(加藤翔)</span></span>
 <span class="num"><span class="bar"><i style="width:25px"></i>【22.6%】</span></span>
-<span class="num od" data-k="202611073110-4">3.2<span class="sub">1人気</span></span></div><div class="row nar" style="--ab:7;--no:5">
+<span class="num od" data-k="202611073110-4">11.6<span class="sub">3人気</span></span></div><div class="row nar" style="--ab:7;--no:5">
 <span class="mark">－</span>
 <span><span class="waku" style="background:#EDC21B;color:#15201A">5</span></span>
 <span class="who"><span class="nm">フライヤートゥルー</span><span class="sub">(城野慈)</span></span>
 <span class="num"><span class="bar"><i style="width:3px"></i>【2.6%】</span></span>
-<span class="num od" data-k="202611073110-5">32.8<span class="sub">9人気</span></span></div><div class="row nar" style="--ab:6;--no:6">
+<span class="num od" data-k="202611073110-5">116.8<span class="sub">9人気</span></span></div><div class="row nar" style="--ab:6;--no:6">
 <span class="mark">－</span>
 <span><span class="waku" style="background:#2E8B3F;color:#FFFFFF">6</span></span>
 <span class="who"><span class="nm">サノノスピード</span><span class="sub">(近藤翔)</span></span>
 <span class="num"><span class="bar"><i style="width:3px"></i>【3.1%】</span></span>
-<span class="num od" data-k="202611073110-6">16.4<span class="sub">7人気</span></span></div><div class="row nar" style="--ab:10;--no:7">
+<span class="num od" data-k="202611073110-6">58.4<span class="sub">7人気</span></span></div><div class="row nar" style="--ab:10;--no:7">
 <span class="mark">－</span>
 <span><span class="waku" style="background:#EE8A1E;color:#15201A">7</span></span>
 <span class="who"><span class="nm">エイシンオッティモ</span><span class="sub">(濱尚美)</span></span>
 <span class="num"><span class="bar"><i style="width:2px"></i>【0.1%】</span></span>
-<span class="num od" data-k="202611073110-7">10.9<span class="sub">4人気</span></span></div><div class="row nar" style="--ab:4;--no:8">
+<span class="num od" data-k="202611073110-7">38.9<span class="sub">4人気</span></span></div><div class="row nar" style="--ab:4;--no:8">
 <span class="mark">△</span>
 <span><span class="waku" style="background:#EE8A1E;color:#15201A">8</span></span>
 <span class="who"><span class="nm">ローズボウル</span><span class="sub">(永森大)</span></span>
 <span class="num"><span class="bar"><i style="width:8px"></i>【7.5%】</span></span>
-<span class="num od" data-k="202611073110-8">32.8<span class="sub">9人気</span></span></div><div class="row nar top" style="--ab:1;--no:9">
+<span class="num od" data-k="202611073110-8">116.8<span class="sub">9人気</span></span></div><div class="row nar top" style="--ab:1;--no:9">
 <span class="mark">◎</span>
 <span><span class="waku" style="background:#EA8BB3;color:#15201A">9</span></span>
 <span class="who"><span class="nm">メイショウミカワ</span><span class="sub">(岡遼太)</span></span>
 <span class="num"><span class="bar"><i style="width:48px"></i>【43.6%】</span></span>
-<span class="num od" data-k="202611073110-9">3.2<span class="sub">1人気</span></span></div><div class="row nar" style="--ab:8;--no:10">
+<span class="num od" data-k="202611073110-9">10.6<span class="sub">2人気</span></span></div><div class="row nar" style="--ab:8;--no:10">
 <span class="mark">－</span>
 <span><span class="waku" style="background:#EA8BB3;color:#15201A">10</span></span>
 <span class="who"><span class="nm">アプサラー</span><span class="sub">(大澤誠)</span></span>
 <span class="num"><span class="bar"><i style="width:2px"></i>【1.5%】</span></span>
-<span class="num od" data-k="202611073110-10">10.9<span class="sub">4人気</span></span></div></div></article>
+<span class="num od" data-k="202611073110-10">38.9<span class="sub">4人気</span></span></div></div></article>
 <article class="race" id="202611073111"><div class="rh"><span class="no">高知11R</span>
 <span class="info">20:20発走 ・ ダ1600m ・ 10頭</span><a class="back" href="#idx-2026-11-07">一覧へ ▲</a></div><div class="rows"><div class="row nar head"><span></span><span>番</span><span>馬名(騎手)</span><span class="num">勝率(能力)</span><span class="num">オッズ</span></div><div class="row nar" style="--ab:9;--no:1">
 <span class="mark">－</span>
 <span><span class="waku" style="background:#FFFFFF;color:#15201A">1</span></span>
 <span class="who"><span class="nm">スピードイエロー</span><span class="sub">(畑中信)</span></span>
 <span class="num"><span class="bar"><i style="width:9px"></i>【4.0%】</span></span>
-<span class="num od" data-k="202611073111-1">2.2<span class="sub">1人気</span></span></div><div class="row nar" style="--ab:3;--no:2">
+<span class="num od" data-k="202611073111-1">3.5<span class="sub">1人気</span></span></div><div class="row nar" style="--ab:3;--no:2">
 <span class="mark">▲</span>
 <span><span class="waku" style="background:#1C1C1C;color:#FFFFFF">2</span></span>
 <span class="who"><span class="nm">エクセスリターン</span><span class="sub">(宮川実)</span></span>
 <span class="num"><span class="bar"><i style="width:40px"></i>【18.7%】</span></span>
-<span class="num od" data-k="202611073111-2">3.6<span class="sub">2人気</span></span></div><div class="row nar" style="--ab:5;--no:3">
+<span class="num od" data-k="202611073111-2">4.1<span class="sub">2人気</span></span></div><div class="row nar" style="--ab:5;--no:3">
 <span class="mark">☆</span>
 <span><span class="waku" style="background:#D7342A;color:#FFFFFF">3</span></span>
 <span class="who"><span class="nm">ブルグミューラー</span><span class="sub">(城野慈)</span></span>
 <span class="num"><span class="bar"><i style="width:16px"></i>【7.5%】</span></span>
-<span class="num od" data-k="202611073111-3">50.4<span class="sub">9人気</span></span></div><div class="row nar" style="--ab:2;--no:4">
+<span class="num od" data-k="202611073111-3">9.8<span class="sub">6人気</span></span></div><div class="row nar" style="--ab:2;--no:4">
 <span class="mark">○</span>
 <span><span class="waku" style="background:#2360B8;color:#FFFFFF">4</span></span>
 <span class="who"><span class="nm">アルデヤーノ</span><span class="sub">(濱尚美)</span></span>
 <span class="num"><span class="bar"><i style="width:43px"></i>【19.7%】</span></span>
-<span class="num od" data-k="202611073111-4">5.6<span class="sub">3人気</span></span></div><div class="row nar" style="--ab:6;--no:5">
+<span class="num od" data-k="202611073111-4">6.0<span class="sub">4人気</span></span></div><div class="row nar" style="--ab:6;--no:5">
 <span class="mark">－</span>
 <span><span class="waku" style="background:#EDC21B;color:#15201A">5</span></span>
 <span class="who"><span class="nm">ウォーターレモン</span><span class="sub">(岡遼太)</span></span>
@@ -661,69 +661,69 @@ body:has(#s-no:checked) .row{order:var(--no)}
 <span><span class="waku" style="background:#2E8B3F;color:#FFFFFF">6</span></span>
 <span class="who"><span class="nm">ショウサンキズナ</span><span class="sub">(山崎雅)</span></span>
 <span class="num"><span class="bar"><i style="width:10px"></i>【4.4%】</span></span>
-<span class="num od" data-k="202611073111-6">16.8<span class="sub">5人気</span></span></div><div class="row nar" style="--ab:4;--no:7">
+<span class="num od" data-k="202611073111-6">26.1<span class="sub">7人気</span></span></div><div class="row nar" style="--ab:4;--no:7">
 <span class="mark">△</span>
 <span><span class="waku" style="background:#EE8A1E;color:#15201A">7</span></span>
 <span class="who"><span class="nm">ストーミーデイ</span><span class="sub">(郷間勇)</span></span>
 <span class="num"><span class="bar"><i style="width:24px"></i>【11.0%】</span></span>
-<span class="num od" data-k="202611073111-7">25.2<span class="sub">7人気</span></span></div><div class="row nar" style="--ab:8;--no:8">
+<span class="num od" data-k="202611073111-7">39.2<span class="sub">9人気</span></span></div><div class="row nar" style="--ab:8;--no:8">
 <span class="mark">－</span>
 <span><span class="waku" style="background:#EE8A1E;color:#15201A">8</span></span>
 <span class="who"><span class="nm">ミラクルドリーム</span><span class="sub">(大澤誠)</span></span>
 <span class="num"><span class="bar"><i style="width:9px"></i>【4.1%】</span></span>
-<span class="num od" data-k="202611073111-8">16.8<span class="sub">5人気</span></span></div><div class="row nar" style="--ab:10;--no:9">
+<span class="num od" data-k="202611073111-8">26.1<span class="sub">7人気</span></span></div><div class="row nar" style="--ab:10;--no:9">
 <span class="mark">－</span>
 <span><span class="waku" style="background:#EA8BB3;color:#15201A">9</span></span>
 <span class="who"><span class="nm">コスモシーウルフ</span><span class="sub">(塚本直)</span></span>
 <span class="num"><span class="bar"><i style="width:6px"></i>【2.6%】</span></span>
-<span class="num od" data-k="202611073111-9">25.2<span class="sub">7人気</span></span></div><div class="row nar top" style="--ab:1;--no:10">
+<span class="num od" data-k="202611073111-9">6.5<span class="sub">5人気</span></span></div><div class="row nar top" style="--ab:1;--no:10">
 <span class="mark">◎</span>
 <span><span class="waku" style="background:#EA8BB3;color:#15201A">10</span></span>
 <span class="who"><span class="nm">ブラッティーキッド</span><span class="sub">(多田誠)</span></span>
 <span class="num"><span class="bar"><i style="width:48px"></i>【22.2%】</span></span>
-<span class="num od" data-k="202611073111-10">7.2<span class="sub">4人気</span></span></div></div></article>
+<span class="num od" data-k="202611073111-10">4.9<span class="sub">3人気</span></span></div></div></article>
 <article class="race" id="202611073112"><div class="rh"><span class="no">高知12R</span>
 <span class="info">20:50発走 ・ ダ1300m ・ 12頭</span><a class="back" href="#idx-2026-11-07">一覧へ ▲</a></div><div class="rows"><div class="row nar head"><span></span><span>番</span><span>馬名(騎手)</span><span class="num">勝率(能力)</span><span class="num">オッズ</span></div><div class="row nar" style="--ab:12;--no:1">
 <span class="mark">－</span>
 <span><span class="waku" style="background:#FFFFFF;color:#15201A">1</span></span>
 <span class="who"><span class="nm">グラデュエール</span><span class="sub">(畑中信)</span></span>
 <span class="num"><span class="bar"><i style="width:2px"></i>【1.6%】</span></span>
-<span class="num od" data-k="202611073112-1">163.2<span class="sub">12人気</span></span></div><div class="row nar" style="--ab:4;--no:2">
+<span class="num od" data-k="202611073112-1">25.8<span class="sub">6人気</span></span></div><div class="row nar" style="--ab:4;--no:2">
 <span class="mark">△</span>
 <span><span class="waku" style="background:#1C1C1C;color:#FFFFFF">2</span></span>
 <span class="who"><span class="nm">ヤマメナイト</span><span class="sub">(新庄海)</span></span>
 <span class="num"><span class="bar"><i style="width:11px"></i>【7.9%】</span></span>
-<span class="num od" data-k="202611073112-2">11.6<span class="sub">3人気</span></span></div><div class="row nar" style="--ab:10;--no:3">
+<span class="num od" data-k="202611073112-2">12.9<span class="sub">3人気</span></span></div><div class="row nar" style="--ab:10;--no:3">
 <span class="mark">－</span>
 <span><span class="waku" style="background:#D7342A;color:#FFFFFF">3</span></span>
 <span class="who"><span class="nm">ヴォーゲ</span><span class="sub">(木村直)</span></span>
 <span class="num"><span class="bar"><i style="width:4px"></i>【3.1%】</span></span>
-<span class="num od" data-k="202611073112-3">54.4<span class="sub">9人気</span></span></div><div class="row nar" style="--ab:11;--no:4">
+<span class="num od" data-k="202611073112-3">60.2<span class="sub">10人気</span></span></div><div class="row nar" style="--ab:11;--no:4">
 <span class="mark">－</span>
 <span><span class="waku" style="background:#2360B8;color:#FFFFFF">4</span></span>
 <span class="who"><span class="nm">マサハヤアン</span><span class="sub">(大澤誠)</span></span>
 <span class="num"><span class="bar"><i style="width:4px"></i>【2.6%】</span></span>
-<span class="num od" data-k="202611073112-4">81.6<span class="sub">11人気</span></span></div><div class="row nar top" style="--ab:1;--no:5">
+<span class="num od" data-k="202611073112-4">90.4<span class="sub">12人気</span></span></div><div class="row nar top" style="--ab:1;--no:5">
 <span class="mark">◎</span>
 <span><span class="waku" style="background:#EDC21B;color:#15201A">5</span></span>
 <span class="who"><span class="nm">リベラティオ</span><span class="sub">(加藤翔)</span></span>
 <span class="num"><span class="bar"><i style="width:48px"></i>【35.2%】</span></span>
-<span class="num od" data-k="202611073112-5">16.3<span class="sub">4人気</span></span></div><div class="row nar" style="--ab:8;--no:6">
+<span class="num od" data-k="202611073112-5">15.0<span class="sub">4人気</span></span></div><div class="row nar" style="--ab:8;--no:6">
 <span class="mark">－</span>
 <span><span class="waku" style="background:#EDC21B;color:#15201A">6</span></span>
 <span class="who"><span class="nm">ベンガルボダイジュ</span><span class="sub">(山崎雅)</span></span>
 <span class="num"><span class="bar"><i style="width:6px"></i>【4.3%】</span></span>
-<span class="num od" data-k="202611073112-6">40.8<span class="sub">8人気</span></span></div><div class="row nar" style="--ab:3;--no:7">
+<span class="num od" data-k="202611073112-6">45.2<span class="sub">9人気</span></span></div><div class="row nar" style="--ab:3;--no:7">
 <span class="mark">▲</span>
 <span><span class="waku" style="background:#2E8B3F;color:#FFFFFF">7</span></span>
 <span class="who"><span class="nm">カイトヴァイター</span><span class="sub">(塚本直)</span></span>
 <span class="num"><span class="bar"><i style="width:15px"></i>【10.9%】</span></span>
-<span class="num od" data-k="202611073112-7">18.1<span class="sub">5人気</span></span></div><div class="row nar" style="--ab:5;--no:8">
+<span class="num od" data-k="202611073112-7">20.0<span class="sub">5人気</span></span></div><div class="row nar" style="--ab:5;--no:8">
 <span class="mark">☆</span>
 <span><span class="waku" style="background:#2E8B3F;color:#FFFFFF">8</span></span>
 <span class="who"><span class="nm">ブロードグリン</span><span class="sub">(城野慈)</span></span>
 <span class="num"><span class="bar"><i style="width:9px"></i>【6.6%】</span></span>
-<span class="num od" data-k="202611073112-8">54.4<span class="sub">9人気</span></span></div><div class="row nar" style="--ab:7;--no:9">
+<span class="num od" data-k="202611073112-8">60.2<span class="sub">10人気</span></span></div><div class="row nar" style="--ab:7;--no:9">
 <span class="mark">－</span>
 <span><span class="waku" style="background:#EE8A1E;color:#15201A">9</span></span>
 <span class="who"><span class="nm">ソヴァージュ</span><span class="sub">(岡遼太)</span></span>
@@ -733,17 +733,17 @@ body:has(#s-no:checked) .row{order:var(--no)}
 <span><span class="waku" style="background:#EE8A1E;color:#15201A">10</span></span>
 <span class="who"><span class="nm">コントリビュート</span><span class="sub">(近藤翔)</span></span>
 <span class="num"><span class="bar"><i style="width:8px"></i>【5.9%】</span></span>
-<span class="num od" data-k="202611073112-10">32.6<span class="sub">6人気</span></span></div><div class="row nar" style="--ab:2;--no:11">
+<span class="num od" data-k="202611073112-10">30.1<span class="sub">7人気</span></span></div><div class="row nar" style="--ab:2;--no:11">
 <span class="mark">○</span>
 <span><span class="waku" style="background:#EA8BB3;color:#15201A">11</span></span>
 <span class="who"><span class="nm">トーアイクタチ</span><span class="sub">(多田誠)</span></span>
 <span class="num"><span class="bar"><i style="width:17px"></i>【12.5%】</span></span>
-<span class="num od" data-k="202611073112-11">1.7<span class="sub">1人気</span></span></div><div class="row nar" style="--ab:9;--no:12">
+<span class="num od" data-k="202611073112-11">1.8<span class="sub">1人気</span></span></div><div class="row nar" style="--ab:9;--no:12">
 <span class="mark">－</span>
 <span><span class="waku" style="background:#EA8BB3;color:#15201A">12</span></span>
 <span class="who"><span class="nm">ケイベエ</span><span class="sub">(上田将)</span></span>
 <span class="num"><span class="bar"><i style="width:6px"></i>【4.2%】</span></span>
-<span class="num od" data-k="202611073112-12">32.6<span class="sub">6人気</span></span></div></div></article>
+<span class="num od" data-k="202611073112-12">30.1<span class="sub">7人気</span></span></div></div></article>
 <h2 id="2026-11-07-佐賀">佐賀 <span class="tag">過去の◎単勝85%</span></h2>
 <article class="race" id="202611073201"><div class="rh"><span class="no">佐賀1R</span>
 <span class="info">15:25発走 ・ ダ1400m ・ 10頭</span><a class="back" href="#idx-2026-11-07">一覧へ ▲</a></div><div class="rows"><div class="row nar head"><span></span><span>番</span><span>馬名(騎手)</span><span class="num">勝率(能力)</span><span class="num">オッズ</span></div><div class="row nar" style="--ab:2;--no:1">
@@ -751,12 +751,12 @@ body:has(#s-no:checked) .row{order:var(--no)}
 <span><span class="waku" style="background:#FFFFFF;color:#15201A">1</span></span>
 <span class="who"><span class="nm">ダイメイサンシ</span><span class="sub">(飛田愛)</span></span>
 <span class="num"><span class="bar"><i style="width:20px"></i>【21.9%】</span></span>
-<span class="num od" data-k="202611073201-1">-</span></div><div class="row nar" style="--ab:7;--no:2">
+<span class="num od" data-k="202611073201-1">12.8<span class="sub">4人気</span></span></div><div class="row nar" style="--ab:7;--no:2">
 <span class="mark">－</span>
 <span><span class="waku" style="background:#1C1C1C;color:#FFFFFF">2</span></span>
 <span class="who"><span class="nm">ドラゴンアイ</span><span class="sub">(田中直)</span></span>
 <span class="num"><span class="bar"><i style="width:2px"></i>【1.5%】</span></span>
-<span class="num od" data-k="202611073201-2">-</span></div><div class="row nar" style="--ab:9;--no:3">
+<span class="num od" data-k="202611073201-2">25.6<span class="sub">5人気</span></span></div><div class="row nar" style="--ab:9;--no:3">
 <span class="mark">－</span>
 <span><span class="waku" style="background:#D7342A;color:#FFFFFF">3</span></span>
 <span class="who"><span class="nm">ニシノキヅイタラ</span><span class="sub">(出水拓)</span></span>
@@ -766,7 +766,7 @@ body:has(#s-no:checked) .row{order:var(--no)}
 <span><span class="waku" style="background:#2360B8;color:#FFFFFF">4</span></span>
 <span class="who"><span class="nm">ダバイスピーディ</span><span class="sub">(山口勲)</span></span>
 <span class="num"><span class="bar"><i style="width:2px"></i>【2.0%】</span></span>
-<span class="num od" data-k="202611073201-4">-</span></div><div class="row nar" style="--ab:3;--no:5">
+<span class="num od" data-k="202611073201-4">25.6<span class="sub">5人気</span></span></div><div class="row nar" style="--ab:3;--no:5">
 <span class="mark">▲</span>
 <span><span class="waku" style="background:#EDC21B;color:#15201A">5</span></span>
 <span class="who"><span class="nm">ビバムチャチョ</span><span class="sub">(山田貴)</span></span>
@@ -776,7 +776,7 @@ body:has(#s-no:checked) .row{order:var(--no)}
 <span><span class="waku" style="background:#2E8B3F;color:#FFFFFF">6</span></span>
 <span class="who"><span class="nm">スターオブチャージ</span><span class="sub">(石川慎)</span></span>
 <span class="num"><span class="bar"><i style="width:4px"></i>【4.3%】</span></span>
-<span class="num od" data-k="202611073201-6">-</span></div><div class="row nar" style="--ab:8;--no:7">
+<span class="num od" data-k="202611073201-6">2.8<span class="sub">2人気</span></span></div><div class="row nar" style="--ab:8;--no:7">
 <span class="mark">－</span>
 <span><span class="waku" style="background:#EE8A1E;color:#15201A">7</span></span>
 <span class="who"><span class="nm">リネンカルミア</span><span class="sub">(田中純)</span></span>
@@ -786,17 +786,17 @@ body:has(#s-no:checked) .row{order:var(--no)}
 <span><span class="waku" style="background:#EE8A1E;color:#15201A">8</span></span>
 <span class="who"><span class="nm">テムアメリカン</span><span class="sub">(中山蓮)</span></span>
 <span class="num"><span class="bar"><i style="width:48px"></i>【53.2%】</span></span>
-<span class="num od" data-k="202611073201-8">-</span></div><div class="row nar" style="--ab:10;--no:9">
+<span class="num od" data-k="202611073201-8">3.2<span class="sub">3人気</span></span></div><div class="row nar" style="--ab:10;--no:9">
 <span class="mark">－</span>
 <span><span class="waku" style="background:#EA8BB3;color:#15201A">9</span></span>
 <span class="who"><span class="nm">チャイロサマー</span><span class="sub">(青海大)</span></span>
 <span class="num"><span class="bar"><i style="width:2px"></i>【0.6%】</span></span>
-<span class="num od" data-k="202611073201-9">1.0<span class="sub">1人気</span></span></div><div class="row nar" style="--ab:5;--no:10">
+<span class="num od" data-k="202611073201-9">25.6<span class="sub">5人気</span></span></div><div class="row nar" style="--ab:5;--no:10">
 <span class="mark">☆</span>
 <span><span class="waku" style="background:#EA8BB3;color:#15201A">10</span></span>
 <span class="who"><span class="nm">タンバーテソーロ</span><span class="sub">(長田進)</span></span>
 <span class="num"><span class="bar"><i style="width:4px"></i>【3.9%】</span></span>
-<span class="num od" data-k="202611073201-10">-</span></div></div></article>
+<span class="num od" data-k="202611073201-10">2.5<span class="sub">1人気</span></span></div></div></article>
 <article class="race" id="202611073202"><div class="rh"><span class="no">佐賀2R</span>
 <span class="info">15:55発走 ・ ダ1400m ・ 7頭</span><a class="back" href="#idx-2026-11-07">一覧へ ▲</a></div><div class="rows"><div class="row nar head"><span></span><span>番</span><span>馬名(騎手)</span><span class="num">勝率(能力)</span><span class="num">オッズ</span></div><div class="row nar top" style="--ab:1;--no:1">
 <span class="mark">◎</span>
@@ -865,7 +865,7 @@ body:has(#s-no:checked) .row{order:var(--no)}
 <span><span class="waku" style="background:#2E8B3F;color:#FFFFFF">6</span></span>
 <span class="who"><span class="nm">ジェイエルトランプ</span><span class="sub">(石川慎)</span></span>
 <span class="num"><span class="bar"><i style="width:48px"></i>【39.3%】</span></span>
-<span class="num od" data-k="202611073203-6">-</span></div><div class="row nar" style="--ab:3;--no:7">
+<span class="num od" data-k="202611073203-6">1.0<span class="sub">1人気</span></span></div><div class="row nar" style="--ab:3;--no:7">
 <span class="mark">▲</span>
 <span><span class="waku" style="background:#EE8A1E;color:#15201A">7</span></span>
 <span class="who"><span class="nm">アレキサンダーサン</span><span class="sub">(山口勲)</span></span>
@@ -892,7 +892,7 @@ body:has(#s-no:checked) .row{order:var(--no)}
 <span><span class="waku" style="background:#FFFFFF;color:#15201A">1</span></span>
 <span class="who"><span class="nm">ブルーストレイル</span><span class="sub">(石川慎)</span></span>
 <span class="num"><span class="bar"><i style="width:41px"></i>【22.4%】</span></span>
-<span class="num od" data-k="202611073204-1">-</span></div><div class="row nar" style="--ab:6;--no:2">
+<span class="num od" data-k="202611073204-1">3.8<span class="sub">2人気</span></span></div><div class="row nar" style="--ab:6;--no:2">
 <span class="mark">－</span>
 <span><span class="waku" style="background:#1C1C1C;color:#FFFFFF">2</span></span>
 <span class="who"><span class="nm">フェルサイト</span><span class="sub">(山田貴)</span></span>
@@ -902,7 +902,7 @@ body:has(#s-no:checked) .row{order:var(--no)}
 <span><span class="waku" style="background:#D7342A;color:#FFFFFF">3</span></span>
 <span class="who"><span class="nm">スペシャルホリデー</span><span class="sub">(出水拓)</span></span>
 <span class="num"><span class="bar"><i style="width:16px"></i>【8.9%】</span></span>
-<span class="num od" data-k="202611073204-3">1.0<span class="sub">1人気</span></span></div><div class="row nar" style="--ab:8;--no:4">
+<span class="num od" data-k="202611073204-3">23.2<span class="sub">3人気</span></span></div><div class="row nar" style="--ab:8;--no:4">
 <span class="mark">－</span>
 <span><span class="waku" style="background:#2360B8;color:#FFFFFF">4</span></span>
 <span class="who"><span class="nm">タケノオーカン</span><span class="sub">(中山蓮)</span></span>
@@ -922,12 +922,12 @@ body:has(#s-no:checked) .row{order:var(--no)}
 <span><span class="waku" style="background:#EE8A1E;color:#15201A">7</span></span>
 <span class="who"><span class="nm">ダバイシュクレ</span><span class="sub">(山口勲)</span></span>
 <span class="num"><span class="bar"><i style="width:48px"></i>【25.9%】</span></span>
-<span class="num od" data-k="202611073204-7">-</span></div><div class="row nar" style="--ab:3;--no:8">
+<span class="num od" data-k="202611073204-7">1.1<span class="sub">1人気</span></span></div><div class="row nar" style="--ab:3;--no:8">
 <span class="mark">▲</span>
 <span><span class="waku" style="background:#EA8BB3;color:#15201A">8</span></span>
 <span class="who"><span class="nm">ニフェーデービル</span><span class="sub">(飛田愛)</span></span>
 <span class="num"><span class="bar"><i style="width:33px"></i>【17.7%】</span></span>
-<span class="num od" data-k="202611073204-8">-</span></div></div></article>
+<span class="num od" data-k="202611073204-8">23.2<span class="sub">3人気</span></span></div></div></article>
 <article class="race" id="202611073205"><div class="rh"><span class="no">佐賀5R</span>
 <span class="info">17:35発走 ・ ダ1300m ・ 11頭</span><a class="back" href="#idx-2026-11-07">一覧へ ▲</a></div><div class="rows"><div class="row nar head"><span></span><span>番</span><span>馬名(騎手)</span><span class="num">勝率(能力)</span><span class="num">オッズ</span></div><div class="row nar" style="--ab:5;--no:1">
 <span class="mark">☆</span>
@@ -984,14 +984,14 @@ body:has(#s-no:checked) .row{order:var(--no)}
 <span><span class="waku" style="background:#EA8BB3;color:#15201A">11</span></span>
 <span class="who"><span class="nm">シエルブリエ</span><span class="sub">(山口勲)</span></span>
 <span class="num"><span class="bar"><i style="width:48px"></i>【68.6%】</span></span>
-<span class="num od" data-k="202611073205-11">-</span></div></div></article>
+<span class="num od" data-k="202611073205-11">1.0<span class="sub">1人気</span></span></div></div></article>
 <article class="race" id="202611073206"><div class="rh"><span class="no">佐賀6R</span>
 <span class="info">18:05発走 ・ ダ1300m ・ 12頭</span><a class="back" href="#idx-2026-11-07">一覧へ ▲</a></div><div class="rows"><div class="row nar head"><span></span><span>番</span><span>馬名(騎手)</span><span class="num">勝率(能力)</span><span class="num">オッズ</span></div><div class="row nar top" style="--ab:1;--no:1">
 <span class="mark">◎</span>
 <span><span class="waku" style="background:#FFFFFF;color:#15201A">1</span></span>
 <span class="who"><span class="nm">ダンクバローズ</span><span class="sub">(出水拓)</span></span>
 <span class="num"><span class="bar"><i style="width:48px"></i>【33.2%】</span></span>
-<span class="num od" data-k="202611073206-1">-</span></div><div class="row nar" style="--ab:4;--no:2">
+<span class="num od" data-k="202611073206-1">3.2<span class="sub">1人気</span></span></div><div class="row nar" style="--ab:4;--no:2">
 <span class="mark">△</span>
 <span><span class="waku" style="background:#1C1C1C;color:#FFFFFF">2</span></span>
 <span class="who"><span class="nm">テイエムファントム</span><span class="sub">(山田貴)</span></span>
@@ -1036,17 +1036,17 @@ body:has(#s-no:checked) .row{order:var(--no)}
 <span><span class="waku" style="background:#EE8A1E;color:#15201A">10</span></span>
 <span class="who"><span class="nm">アステリアート</span><span class="sub">(山口勲)</span></span>
 <span class="num"><span class="bar"><i style="width:28px"></i>【19.1%】</span></span>
-<span class="num od" data-k="202611073206-10">-</span></div><div class="row nar" style="--ab:5;--no:11">
+<span class="num od" data-k="202611073206-10">3.2<span class="sub">1人気</span></span></div><div class="row nar" style="--ab:5;--no:11">
 <span class="mark">☆</span>
 <span><span class="waku" style="background:#EA8BB3;color:#15201A">11</span></span>
 <span class="who"><span class="nm">ピーチアバランチェ</span><span class="sub">(飛田愛)</span></span>
 <span class="num"><span class="bar"><i style="width:6px"></i>【4.3%】</span></span>
-<span class="num od" data-k="202611073206-11">-</span></div><div class="row nar" style="--ab:12;--no:12">
+<span class="num od" data-k="202611073206-11">3.2<span class="sub">1人気</span></span></div><div class="row nar" style="--ab:12;--no:12">
 <span class="mark">－</span>
 <span><span class="waku" style="background:#EA8BB3;color:#15201A">12</span></span>
 <span class="who"><span class="nm">ブリックヤード</span><span class="sub">(加茂飛)</span></span>
 <span class="num"><span class="bar"><i style="width:2px"></i>【0.1%】</span></span>
-<span class="num od" data-k="202611073206-12">-</span></div></div></article>
+<span class="num od" data-k="202611073206-12">3.2<span class="sub">1人気</span></span></div></div></article>
 <article class="race" id="202611073207"><div class="rh"><span class="no">佐賀7R</span>
 <span class="info">18:35発走 ・ ダ1400m ・ 11頭</span><a class="back" href="#idx-2026-11-07">一覧へ ▲</a></div><div class="rows"><div class="row nar head"><span></span><span>番</span><span>馬名(騎手)</span><span class="num">勝率(能力)</span><span class="num">オッズ</span></div><div class="row nar" style="--ab:5;--no:1">
 <span class="mark">☆</span>
@@ -1088,7 +1088,7 @@ body:has(#s-no:checked) .row{order:var(--no)}
 <span><span class="waku" style="background:#EE8A1E;color:#15201A">8</span></span>
 <span class="who"><span class="nm">ニシノガウェイン</span><span class="sub">(川島拓)</span></span>
 <span class="num"><span class="bar"><i style="width:33px"></i>【24.4%】</span></span>
-<span class="num od" data-k="202611073207-8">-</span></div><div class="row nar" style="--ab:9;--no:9">
+<span class="num od" data-k="202611073207-8">1.6<span class="sub">1人気</span></span></div><div class="row nar" style="--ab:9;--no:9">
 <span class="mark">－</span>
 <span><span class="waku" style="background:#EE8A1E;color:#15201A">9</span></span>
 <span class="who"><span class="nm">グレイストーム</span><span class="sub">(長谷蓮)</span></span>
@@ -1103,7 +1103,7 @@ body:has(#s-no:checked) .row{order:var(--no)}
 <span><span class="waku" style="background:#EA8BB3;color:#15201A">11</span></span>
 <span class="who"><span class="nm">ウイニングザソウル</span><span class="sub">(出水拓)</span></span>
 <span class="num"><span class="bar"><i style="width:4px"></i>【2.8%】</span></span>
-<span class="num od" data-k="202611073207-11">-</span></div></div></article>
+<span class="num od" data-k="202611073207-11">1.6<span class="sub">1人気</span></span></div></div></article>
 <article class="race" id="202611073208"><div class="rh"><span class="no">佐賀8R</span>
 <span class="info">19:05発走 ・ ダ1400m ・ 11頭</span><a class="back" href="#idx-2026-11-07">一覧へ ▲</a></div><div class="rows"><div class="row nar head"><span></span><span>番</span><span>馬名(騎手)</span><span class="num">勝率(能力)</span><span class="num">オッズ</span></div><div class="row nar" style="--ab:10;--no:1">
 <span class="mark">－</span>
@@ -1115,7 +1115,7 @@ body:has(#s-no:checked) .row{order:var(--no)}
 <span><span class="waku" style="background:#1C1C1C;color:#FFFFFF">2</span></span>
 <span class="who"><span class="nm">パドマーワト</span><span class="sub">(小松丈)</span></span>
 <span class="num"><span class="bar"><i style="width:2px"></i>【0.0%】</span></span>
-<span class="num od" data-k="202611073208-2">-</span></div><div class="row nar" style="--ab:7;--no:3">
+<span class="num od" data-k="202611073208-2">1.0<span class="sub">1人気</span></span></div><div class="row nar" style="--ab:7;--no:3">
 <span class="mark">－</span>
 <span><span class="waku" style="background:#D7342A;color:#FFFFFF">3</span></span>
 <span class="who"><span class="nm">トーアアグネス</span><span class="sub">(山下裕)</span></span>
